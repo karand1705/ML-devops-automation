@@ -103,4 +103,4 @@ accuracy=score[1]*100
 file = open("accuracy.txt","w+")
 file.write(str(accuracy))
 file.close()
-os.system("mv /accuracy.txt /mycode")
+os.system("mv /accuracy.txt /nnpro/")
